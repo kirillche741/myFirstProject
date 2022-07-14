@@ -7,6 +7,7 @@ specifiers:
   eslint: 8.19.0
   eslint-config-next: 12.2.2
   next: 12.2.2
+  next-seo: ^5.4.0
   react: 18.2.0
   react-dom: 18.2.0
   sass: ^1.53.0
@@ -14,6 +15,7 @@ specifiers:
 
 dependencies:
   next: 12.2.2_b7sksnfkdyiidz7vzaadim75qm
+  next-seo: 5.4.0_7gpduzaz4csxytrukenoyuq3te
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sass: 1.53.0
@@ -1380,6 +1382,18 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
+
+  /next-seo/5.4.0_7gpduzaz4csxytrukenoyuq3te:
+    resolution: {integrity: sha512-R9DhajPwJnR/lsF2hZ8cN8uqr5CVITsRrCG1AF5+ufcaybKYOvnH8sH9MaH4/hpkps3PQ9H71S7J7SPYixAYzQ==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      next: 12.2.2_b7sksnfkdyiidz7vzaadim75qm
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /next/12.2.2_b7sksnfkdyiidz7vzaadim75qm:
     resolution: {integrity: sha512-zAYFY45aBry/PlKONqtlloRFqU/We3zWYdn2NoGvDZkoYUYQSJC8WMcalS5C19MxbCZLUVCX7D7a6gTGgl2yLg==}
